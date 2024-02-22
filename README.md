@@ -8,7 +8,7 @@ Takes incoming audio and granulates 5 streams, transposed in real-time. The harm
 # Grainflow Stochastic 
 ![Grainflow_Stochastic](https://github.com/AffeZwei/AZ-Devices/assets/62151108/44474ad7-24d7-4ab3-90a0-ec8dc4c1dc7b)
 
-Granulates incoming audio at a set grain size, but offers many possibilities for pitch change, density and rate of emission. Ableton 10+ for normal version, Ableton 11+ for multichanel version.
+Granulates incoming audio at a set grain size, but offers many possibilities for pitch change, density and rate of emission. Ableton 10+ for normal version, Ableton 11+ for multichanel version. Made with Chrisopher Poovey's Grainflow. Ableton 10 or higher
 # There is a multi-channel version of Grainflow Stochastic which will automatically generate five extra tracks for five separate streams of granules. For this reason, it is only available for Ableton 11 and 12. 
 Like the 2-channel version, it granulates incoming audio at a set grain size, but offers many possibilities for pitch change (including glissando), density and rate of emission. Made with Chrisopher Poovey's Grainflow. Ableton 11 or higher.
 ​ 
