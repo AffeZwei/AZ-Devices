@@ -51,7 +51,7 @@ This LFO produces a pair of shapes: one stepped and the other with the same step
 
 #  AZ Twin Random Steps and Shapes LFOs
 
-![RandomShapesB](https://github.com/AffeZwei/AZ-Devices/assets/62151108/19ebf1d1-2dc8-42bf-a8e7-ad792e9abcb1)
+![AZ_Twin_Shaped_LFOs](https://github.com/AffeZwei/AZ-Devices/assets/62151108/200cb9ff-5341-40ae-92c1-70390ba66ccf)
 ​
 This LFO can produce a variety of shapes, from steps to curves to any combination thereof. The second LFO is interpolated at twice the speed of the first, so therefore produces shapes at twice the rate. It won't exactly reproduce the shape at twice the speed, but it will create more curves or steps, but always in relation to the first. The spline-6 offers an interpolation with a shift-register at 6 different points on the curve, so the shapes and steps will be a bit shallower. Each LFO can be individually smoothed. Portions of this device are based on gen~ patching found in "Generating Sound and organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. Ableton 10 or higher.
 
