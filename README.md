@@ -23,12 +23,6 @@ This can also be seen as a kind of delay effect, it is a simple live granulator 
 ![Polyvoice_granulator](https://github.com/AffeZwei/AZ-Devices/assets/62151108/2e797832-18df-4542-91d5-715bde79c863)
 
 Granulates live incoming-audio with up to 24 voices. This one allows for minute control and modulation of grain size, rate of emission, pitch and position of grain. Portions of this device are based on gen~ patching found in "Generating Sound and organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. Ableton 10 or higher.
-
-# AZ Doppler-to-Midi Delay
-
-![DOppler2midi](https://github.com/AffeZwei/AZ-Devices/assets/62151108/48a261f1-dcde-4e33-8c63-7ebb52a441bf)
-
-This device can be used as a simple delay effect with variable delay time and feedback. Or the "Doppler Delay" can be switched on, which gives a rhythmic modulation of the delay time. This gives the illusion of a doppler effect: pitches shifting higher or lower according to your perspective. These changes of pitch are then translated into Midi notes which can be sent anywhere in or outside Ableton. Note that the midi is not reflecting the incoming audio pitch, but rather the pitch of the delay shifts. Can sync or decouple with Ableton playback. Portions of this device are based on gen~ patching found in "Generating Sound and organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. Ableton 11 or higher. Tutorial/Demo: https://youtu.be/pStxcXckTvM
 ​ 
 # AZ Modulating Decay
 
