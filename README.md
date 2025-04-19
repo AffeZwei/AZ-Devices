@@ -1,5 +1,10 @@
 # AZ-Devices
 
+# Spectral Freeze
+![AZSpectralFreeze](https://github.com/user-attachments/assets/7b6d1d61-94f5-418c-99b5-bb64f1e3d0b4)
+
+Put on an audio track to record incoming sound that can be frozen in time! You can scroll through the spectrograph (or automate, or modulate with an LFO) to explore the sound at different time frames. Recording can be manually toggled, or you can set the device to start recording with onset detection. 
+
 # Grainflow Harmonizer
 ![Grainflow_Harmonizer](https://github.com/AffeZwei/AZ-Devices/assets/62151108/aa09ca17-b300-4903-9d74-b3ad8293e1df)
 
