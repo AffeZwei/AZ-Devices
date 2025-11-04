@@ -1,8 +1,13 @@
 # AZ-Devices
 
+General troubleshooting for Audio Synthesizers:
+No sound? Make sure you have the correct input source: audio or midi. Try turning off the envelope, or adjusting the Onset Detection parameters (if your input source is audio). Is your audio source signal loud enough? This device might not respond to weak signals, or signals below 20hz. Check the Hi-Pass filter, is the threshold low enough? Check the Dry/Wet ratio as well.
+Pitch too unstable? If that’s not what you want, make sure “non-continuous” is selected and “Counterpoint” is turned off (where applicable). Try the “Large” mode for Pitch Recognition. Turn the Mod Modes to “Fixed”(if applicable). Bear in mind, a bit of wackiness is characteristic for these devices.
+
 # AZ Crosscounter Audio Synth
-Fully expanded view:
+Expanded view:
 ![CrossPMMidiFull](https://github.com/user-attachments/assets/920045c9-0be8-4060-b7ee-d8784488d2c8)
+
 Read full manual here: https://docs.google.com/document/d/1zV0esc2ami-lVniTjiRCF9nk2YPZQcAY78aBvlTqNmM/edit?usp=drive_link
 
 Crosscounter Audiosynth Quickstart -  Crosscounter Audiosynth is a monophonic, audio-following synthesizer, but can also receive simple, monophonic midi input. It is an audio device and can live on its own on an audio track or be used on a midi track along with other audio devices. 
@@ -10,10 +15,6 @@ Crosscounter Audiosynth Quickstart -  Crosscounter Audiosynth is a monophonic, a
 Choose your input source: audio or midi (choosing midi will give you a drop-down menu for midi sources and channels)
 experiment with the mods, indexes, filters, mod modes and (sub)harmonics until you get a sound that suits
 turn on the envelope if you want to shape the sound. The parameters will vary depending on the source input (audio or midi)
-
-Troubleshooting:
-no sound? Try turning off the envelope, or adjusting the Onset Detection parameters (if your input source is audio). Is your audio source signal loud enough? This device might not respond to weak signals, or signals below 20hz. Check the Hi-Pass filter, is the threshold low enough? Check the Dry/Wet ratio as well.
-pitch too unstable? If that’s not what you want, make sure “non-continuous” is selected and “Counterpoint” is turned off. Try the “Large” mode for Pitch Recognition. Turn the Mod Modes to “Fixed”. Bear in mind, a bit of wackiness is characteristic for this device.
 
 This device will follow and pitch match whatever you are playing, singing, or sampling. However, it has the capability to switch to midi mode, where it will receive midi input from within Ableton or external hardware. This is useful if, for example, you want to have the synthesizer receive midi pitches from a sequencer for 8 bars, then switch to receiving pitch from live input for the next 8 bars. The dual sine-wave oscillators are cross phase modulated. In addition to the usual synthesis modulation parameters, this audiosynth offers additional harmonics and subharmonics, which can lend an organ-like character to the sound. An experimental feature is Counterpoint, which adds melodic variation to your incoming sound. Crosscounter Audiosynth was inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. 
 
@@ -24,10 +25,33 @@ Read the full manual: https://docs.google.com/document/d/1OVZs2Bpg1QWmK29Eugjebs
 
 Doppler-to-Midi Delay Quickstart: put this device on an audio track, activate the Doppler effect, and choose its rate according to the “Siren” parameters. If you want to send out the delayed pitches as midi, select Start Midi and choose your keyboard octave and other parameters. The midi from this device should be visible on any midi track, just select AZ Doppler-to-Midi as your midi source. This device will not take midi input, only send it out.
 
-Troubleshooting:
-Midi not responding? Maybe the audio signal and its delay are too noisy to detect a clear midi pitch, or the incoming audio signal is too weak. Or increase the “Doppler Amt”, intervals that are too small will not register as separate notes in midi.
-
 This is an audio effect that delays incoming audio. Its delay can mimic the doppler effect heard in old-fashioned police siren sounds and take them to extremes in order to create or generate melodic material. The pitches from this effect can be converted to Midi information that can be received on any Midi-track within Ableton or to external hardware by using Ableton’s External Instrument object. AZ Doppler-to-Midi Delay was inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield.
+
+# AZ Dronebit
+Fully expanded view:
+![AZDronebit](https://github.com/user-attachments/assets/2fc57bb7-b194-41eb-8b2d-4cf423083b04)
+
+Full Manual here:https://docs.google.com/document/d/1dNkAU0l-Z9ZyDMeCjtq2tXI4_UWsBMX6ZXSRhhJz9IA/edit?usp=drive_link
+
+Dronebit Quickstart: Dronebit is an audio device that lives on an audio track, even though it can take in monophonic midi input. Dronebit combines a pair of bitcrushing oscillators and a pair of phase modulating oscillators whose drone can be controlled by midi or set to an exact frequency. 
+Select your “DRONE Pitch” to a set frequency, or to take in midi (a dropdown menu will appear for midi input and channel)
+Dronebit will follow the pitch of incoming audio which can be played over the drone. The horizontal sliders “Bit Live-Drone” and “PM Live-Drone” allow you to send this incoming audio pitch to either or both of the oscillators and crossfade it with the drone pitch. 
+with the device fully expanded, adjust the Bitcrushing and the Phase Modulating Parameters. Their volumes (gains) can be controlled separately by the gain sliders on the left of the device. Two sets of oscillators are fully independent so you can have a pair of gnarly bitcrushed waveforms or a smooth, harmonic drone. The fun happens when you combine the two. This device is inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield.
+
+
+
+# AZ Harmonic Audio Synth
+![AZHarmonicAudioSynth](https://github.com/user-attachments/assets/521b350f-b35a-48d7-94ea-57de94d37cf1)
+
+Full Manual here: https://docs.google.com/document/d/1u6pcNqMNGgipJ1xFLld_plQomU_YqTaxzyNFdiJccz8/edit?usp=drive_link
+
+Harmonic Audiosynth Quickstart -  Harmonic Audiosynth is a monophonic, audio-following synthesizer, but can also receive simple, monophonic midi input. It is an audio device and can live on its own on an audio track or be used on a midi track along with other audio devices. 
+
+choose your input source: audio or midi (choosing midi will give you a drop-down menu for midi sources and channels)
+experiment with the mods, indexes, filters, mod modes and (sub)harmonics until you get a sound that suits
+turn on the envelope if you want to shape the sound. The parameters will vary depending on the source input (audio or midi)
+
+Harmonic Audiosynth will follow and pitch-match whatever you are playing, singing, or sampling. However, it has the capability to switch to midi mode, where it will receive simple, monophonic midi input from within Ableton or from external hardware. For example, this is useful if you want to have the synthesizer receive pitches from a sequencer for 8 bars, then switch to taking live input for the next 8 bars. Harmonic Audiosynth was inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. They describe it thus: “Using a correlated raised cosine to AM (amplitude modulate) the output we can remove half of the symmetric PM (phase modulated) spectrum. As the index rises, the resulting waveform begins to resemble a kind of granular pulse train. If the index is negative, the asymmetry goes the other way!” Harmonic Audiosynth is an audio device.
 
 # Spectral Freeze
 ![AZSpectralFreeze](https://github.com/user-attachments/assets/7b6d1d61-94f5-418c-99b5-bb64f1e3d0b4)
