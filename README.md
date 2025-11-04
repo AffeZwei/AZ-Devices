@@ -1,5 +1,33 @@
 # AZ-Devices
 
+# AZ Crosscounter Audio Synth
+Fully expanded view:
+![CrossPMMidiFull](https://github.com/user-attachments/assets/920045c9-0be8-4060-b7ee-d8784488d2c8)
+Read full manual here: https://docs.google.com/document/d/1zV0esc2ami-lVniTjiRCF9nk2YPZQcAY78aBvlTqNmM/edit?usp=drive_link
+Crosscounter Audiosynth Quickstart -  Crosscounter Audiosynth is a monophonic, audio-following synthesizer, but can also receive simple, monophonic midi input. It is an audio device and can live on its own on an audio track or be used on a midi track along with other audio devices. 
+
+choose your input source: audio or midi (choosing midi will give you a drop-down menu for midi sources and channels)
+experiment with the mods, indexes, filters, mod modes and (sub)harmonics until you get a sound that suits
+turn on the envelope if you want to shape the sound. The parameters will vary depending on the source input (audio or midi)
+
+Troubleshooting:
+no sound? Try turning off the envelope, or adjusting the Onset Detection parameters (if your input source is audio). Is your audio source signal loud enough? This device might not respond to weak signals, or signals below 20hz. Check the Hi-Pass filter, is the threshold low enough? Check the Dry/Wet ratio as well.
+pitch too unstable? If that’s not what you want, make sure “non-continuous” is selected and “Counterpoint” is turned off. Try the “Large” mode for Pitch Recognition. Turn the Mod Modes to “Fixed”. Bear in mind, a bit of wackiness is characteristic for this device.
+
+This device will follow and pitch match whatever you are playing, singing, or sampling. However, it has the capability to switch to midi mode, where it will receive midi input from within Ableton or external hardware. This is useful if, for example, you want to have the synthesizer receive midi pitches from a sequencer for 8 bars, then switch to receiving pitch from live input for the next 8 bars. The dual sine-wave oscillators are cross phase modulated. In addition to the usual synthesis modulation parameters, this audiosynth offers additional harmonics and subharmonics, which can lend an organ-like character to the sound. An experimental feature is Counterpoint, which adds melodic variation to your incoming sound. Crosscounter Audiosynth was inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. 
+
+# AZ Doppler-to-Midi
+![Doppler2Midi](https://github.com/user-attachments/assets/0602b75d-f527-4667-86b8-f67dd25fe568)
+
+Read the full manual: https://docs.google.com/document/d/1OVZs2Bpg1QWmK29EugjebsAtBEXeJjXBazQqJ8rFZcE/edit?usp=drive_link
+
+Doppler-to-Midi Delay Quickstart: put this device on an audio track, activate the Doppler effect, and choose its rate according to the “Siren” parameters. If you want to send out the delayed pitches as midi, select Start Midi and choose your keyboard octave and other parameters. The midi from this device should be visible on any midi track, just select AZ Doppler-to-Midi as your midi source. This device will not take midi input, only send it out.
+
+Troubleshooting:
+Midi not responding? Maybe the audio signal and its delay are too noisy to detect a clear midi pitch, or the incoming audio signal is too weak. Or increase the “Doppler Amt”, intervals that are too small will not register as separate notes in midi.
+
+This is an audio effect that delays incoming audio. Its delay can mimic the doppler effect heard in old-fashioned police siren sounds and take them to extremes in order to create or generate melodic material. The pitches from this effect can be converted to Midi information that can be received on any Midi-track within Ableton or to external hardware by using Ableton’s External Instrument object. AZ Doppler-to-Midi Delay was inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield.
+
 # Spectral Freeze
 ![AZSpectralFreeze](https://github.com/user-attachments/assets/7b6d1d61-94f5-418c-99b5-bb64f1e3d0b4)
 
