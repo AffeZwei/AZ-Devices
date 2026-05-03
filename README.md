@@ -54,7 +54,7 @@ turn on the envelope if you want to shape the sound. The parameters will vary de
 Harmonic Audiosynth will follow and pitch-match whatever you are playing, singing, or sampling. However, it has the capability to switch to midi mode, where it will receive simple, monophonic midi input from within Ableton or from external hardware. For example, this is useful if you want to have the synthesizer receive pitches from a sequencer for 8 bars, then switch to taking live input for the next 8 bars. Harmonic Audiosynth was inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. They describe it thus: “Using a correlated raised cosine to AM (amplitude modulate) the output we can remove half of the symmetric PM (phase modulated) spectrum. As the index rises, the resulting waveform begins to resemble a kind of granular pulse train. If the index is negative, the asymmetry goes the other way!” Harmonic Audiosynth is an audio device.
 
 # Spectral Freeze
-![AZSpectralFreeze](https://github.com/user-attachments/assets/7b6d1d61-94f5-418c-99b5-bb64f1e3d0b4)
+![AZSpectralFreeze](https://github.com/user-attachments/assets/6af3ade9-c351-4708-822c-05d89da873ac)
 
 Put on an audio track to record incoming sound that can be frozen in time! You can scroll through the spectrograph (or automate, or modulate with an LFO) to explore the sound at different time frames. Recording can be manually toggled, or you can set the device to start recording with onset detection. 
  
