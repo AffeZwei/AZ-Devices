@@ -13,8 +13,8 @@ Read full manual here: https://docs.google.com/document/d/1zV0esc2ami-lVniTjiRCF
 Crosscounter Audiosynth Quickstart -  Crosscounter Audiosynth is a monophonic, audio-following synthesizer, but can also receive simple, monophonic midi input. It is an audio device and can live on its own on an audio track or be used on a midi track along with other audio devices. 
 
 Choose your input source: audio or midi (choosing midi will give you a drop-down menu for midi sources and channels)
-experiment with the mods, indexes, filters, mod modes and (sub)harmonics until you get a sound that suits
-turn on the envelope if you want to shape the sound. The parameters will vary depending on the source input (audio or midi)
+experiment with the mods, indexes, filters, mod modes and (sub)harmonics until you get a sound that suits.
+Turn on the envelope if you want to shape the sound. The parameters will vary depending on the source input (audio or midi)
 
 This device will follow and pitch match whatever you are playing, singing, or sampling. However, it has the capability to switch to midi mode, where it will receive midi input from within Ableton or external hardware. This is useful if, for example, you want to have the synthesizer receive midi pitches from a sequencer for 8 bars, then switch to receiving pitch from live input for the next 8 bars. The dual sine-wave oscillators are cross phase modulated. In addition to the usual synthesis modulation parameters, this audiosynth offers additional harmonics and subharmonics, which can lend an organ-like character to the sound. An experimental feature is Counterpoint, which adds melodic variation to your incoming sound. Crosscounter Audiosynth was inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. 
 
@@ -36,7 +36,7 @@ Full Manual here:https://docs.google.com/document/d/1dNkAU0l-Z9ZyDMeCjtq2tXI4_UW
 Dronebit Quickstart: Dronebit is an audio device that lives on an audio track, even though it can take in monophonic midi input. Dronebit combines a pair of bitcrushing oscillators and a pair of phase modulating oscillators whose drone can be controlled by midi or set to an exact frequency. 
 Select your “DRONE Pitch” to a set frequency, or to take in midi (a dropdown menu will appear for midi input and channel)
 Dronebit will follow the pitch of incoming audio which can be played over the drone. The horizontal sliders “Bit Live-Drone” and “PM Live-Drone” allow you to send this incoming audio pitch to either or both of the oscillators and crossfade it with the drone pitch. 
-with the device fully expanded, adjust the Bitcrushing and the Phase Modulating Parameters. Their volumes (gains) can be controlled separately by the gain sliders on the left of the device. Two sets of oscillators are fully independent so you can have a pair of gnarly bitcrushed waveforms or a smooth, harmonic drone. The fun happens when you combine the two. This device is inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield.
+With the device fully expanded, adjust the Bitcrushing and the Phase Modulating Parameters. Their volumes (gains) can be controlled separately by the gain sliders on the left of the device. Two sets of oscillators are fully independent so you can have a pair of gnarly bitcrushed waveforms or a smooth, harmonic drone. The fun happens when you combine the two. This device is inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield.
 
 
 
@@ -47,16 +47,16 @@ Full Manual here: https://docs.google.com/document/d/1u6pcNqMNGgipJ1xFLld_plQomU
 
 Harmonic Audiosynth Quickstart -  Harmonic Audiosynth is a monophonic, audio-following synthesizer, but can also receive simple, monophonic midi input. It is an audio device and can live on its own on an audio track or be used on a midi track along with other audio devices. 
 
-choose your input source: audio or midi (choosing midi will give you a drop-down menu for midi sources and channels)
-experiment with the mods, indexes, filters, mod modes and (sub)harmonics until you get a sound that suits
-turn on the envelope if you want to shape the sound. The parameters will vary depending on the source input (audio or midi)
+Choose your input source: audio or midi (choosing midi will give you a drop-down menu for midi sources and channels)
+experiment with the mods, indexes, filters, mod modes and (sub)harmonics until you get a sound that suits.
+Turn on the envelope if you want to shape the sound. The parameters will vary depending on the source input (audio or midi)
 
-Harmonic Audiosynth will follow and pitch-match whatever you are playing, singing, or sampling. However, it has the capability to switch to midi mode, where it will receive simple, monophonic midi input from within Ableton or from external hardware. For example, this is useful if you want to have the synthesizer receive pitches from a sequencer for 8 bars, then switch to taking live input for the next 8 bars. Harmonic Audiosynth was inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. They describe it thus: “Using a correlated raised cosine to AM (amplitude modulate) the output we can remove half of the symmetric PM (phase modulated) spectrum. As the index rises, the resulting waveform begins to resemble a kind of granular pulse train. If the index is negative, the asymmetry goes the other way!” Harmonic Audiosynth is an audio device.
+Harmonic Audiosynth will follow and pitch-match whatever you are playing, singing, or sampling. However, it has the capability to switch to midi mode, where it will receive simple, monophonic midi input from within Ableton or from external hardware. For example, this is useful if you want to have the synthesizer receive pitches from a sequencer for 8 bars, then switch to taking live input for the next 8 bars. Harmonic Audiosynth was inspired by the patching found in "Generating Sound and Organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. They describe it thus: “Using a correlated raised cosine to AM (amplitude modulate) the output we can remove half of the symmetric PM (phase modulated) spectrum. As the index rises, the resulting waveform begins to resemble a kind of granular pulse train. If the index is negative, the asymmetry goes the other way!”  
 
 # Spectral Freeze
 ![AZSpectralFreeze](https://github.com/user-attachments/assets/6af3ade9-c351-4708-822c-05d89da873ac)
 
-Put on an audio track to record incoming sound that can be frozen in time! You can scroll through the spectrograph (or automate, or modulate with an LFO) to explore the sound at different time frames. Recording can be manually toggled, or you can set the device to start recording with onset detection. 
+Put on an audio track to record incoming sound that can be frozen in time! You can scroll through the spectrograph (or automate, or modulate with an LFO) to explore the sound at different time frames. Recording can be manually toggled, synced to playback, or you can set the device to start recording with onset detection. 
  
 # Az Polyvoice Live Granulator
 
