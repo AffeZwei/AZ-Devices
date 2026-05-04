@@ -60,9 +60,9 @@ Put on an audio track to record incoming sound that can be frozen in time! You c
  
 # Az Polyvoice Live Granulator
 
-![Polyvoice_granulator](https://github.com/AffeZwei/AZ-Devices/assets/62151108/2e797832-18df-4542-91d5-715bde79c863)
+![AZPolyvoiceGranulator](https://github.com/user-attachments/assets/c46b57bd-e664-4a29-a439-66074e73c464)
 
-Granulates live incoming-audio with up to 24 voices. This one allows for minute control and modulation of grain size, rate of emission, pitch and position of grain. Portions of this device are based on gen~ patching found in "Generating Sound and organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. Ableton 10 or higher.
+Granulates live incoming-audio with up to 24 voices. This allows for minute control and modulation of grain size, rate of emission, pitch and position of grain. Portions of this device are based on gen~ patching found in "Generating Sound and organizing Time". (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. Ableton 10 or higher.
 ​ 
 # AZ Modulating Decay
 
