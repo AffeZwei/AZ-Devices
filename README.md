@@ -66,9 +66,9 @@ Granulates live incoming-audio with up to 24 voices. This allows for minute cont
 ​ 
 # AZ Modulating Decay
 
-![Modulating_Decay](https://github.com/AffeZwei/AZ-Devices/assets/62151108/6365c0c1-5a12-47a5-a404-4d9f82e43189)
+![AZModulatingDecay](https://github.com/user-attachments/assets/1d9daeb3-7124-4835-8bbb-47319b1eeb6d)
 
-This device can be used as a simple delay effect with variable delay and decay times. A built-in LFO can be set to modulate the delay and/or the decay times individually. Extra-slow and randomization are selectable feature of the built-in LFO. Portions of this device are based on gen~ patching found in "Generating Sound and organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. Ableton 10 or higher.
+This device can be used as a simple delay effect with variable delay and decay times. A built-in LFO can be set to modulate the delay and/or the decay times individually, using a spline 6 smoothstepped modulation. Extra-slow and rate randomization are selectable feature of the built-in LFO. Modulating the delay time can add subtle or wacky pitch modulations. Portions of this device are based on gen~ patching found in "Generating Sound and organizing Time" (https://cycling74.com/books/go) copyright Gregory Taylor and Graham Wakefield. Ableton 10 or higher.
 
 # LFOs
 # AZ Random Steps and Shapes LFOs with Trigger for Midi
