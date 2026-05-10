@@ -10,7 +10,7 @@ Expanded view:
 
 Read full manual here: https://docs.google.com/document/d/1zV0esc2ami-lVniTjiRCF9nk2YPZQcAY78aBvlTqNmM/edit?usp=drive_link
 
-Crosscounter Audiosynth Quickstart -  Crosscounter Audiosynth is a monophonic, audio-following synthesizer, but can also receive simple, monophonic midi input. It is an audio device and can live on its own on an audio track or be used on a midi track along with other audio devices. 
+Crosscounter Audiosynth Quickstart -  Needs Max 8.6 or higher. Crosscounter Audiosynth is a monophonic, audio-following synthesizer, but can also receive simple, monophonic midi input. It is an audio device and can live on its own on an audio track or be used on a midi track along with other audio devices. 
 
 Choose your input source: audio or midi (choosing midi will give you a drop-down menu for midi sources and channels)
 experiment with the mods, indexes, filters, mod modes and (sub)harmonics until you get a sound that suits.
