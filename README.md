@@ -56,7 +56,7 @@ Harmonic Audiosynth will follow and pitch-match whatever you are playing, singin
 # Spectral Freeze
 ![AZSpectralFreeze](https://github.com/user-attachments/assets/6af3ade9-c351-4708-822c-05d89da873ac)
 
-Put on an audio track to record incoming sound that can be frozen in time! You can scroll through the spectrograph (or automate, or modulate with an LFO) to explore the sound at different time frames. Recording can be manually toggled, synced to playback, or you can set the device to start recording with onset detection. 
+Put on an audio track to record incoming sound that can be frozen in time! You can scroll through the spectrograph (or automate, or modulate with an LFO) to explore the sound at different time frames. Recording can be manually toggled, synced to playback, or you can set the device to start recording with onset detection. Ableton 11 or higher. Inspired by Hearing Glass: https://www.youtube.com/watch?v=Eli51HS7gwU
  
 # Az Polyvoice Live Granulator
 
