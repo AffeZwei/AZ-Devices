@@ -57,6 +57,11 @@ Harmonic Audiosynth will follow and pitch-match whatever you are playing, singin
 ![AZSpectralFreeze](https://github.com/user-attachments/assets/6af3ade9-c351-4708-822c-05d89da873ac)
 
 Put on an audio track to record incoming sound that can be frozen in time! You can scroll through the spectrograph (or automate, or modulate with an LFO) to explore the sound at different time frames. Recording can be manually toggled, synced to playback, or you can set the device to start recording with onset detection. Allows for dynamic re-sizing of window and buffer according to seconds or to beats in the live set. Ableton 11 or higher. Inspired by Hearing Glass: https://www.youtube.com/watch?v=Eli51HS7gwU
+
+# AZ Dynamic Delay Jump
+![AZDynamicDelayJump](https://github.com/user-attachments/assets/f942fb24-36dc-479e-94cf-20ef83daa707)
+
+This is an audio device that delays live, incoming audio. It can scramble the audio and transpose it according to the volume (gain) of the incoming audio. This creates the audio version of looking in a hall of mirrors, hearing yourself back but from different perspectives. You can set the "memory" buffer in seconds or according the tempo of the Live Set. Transpose will re-pitch the the delayed sounds higher when the incoming audio is loud, and lower when the incoming audio is quiet. You can invert this behavior, too! If you don't like the off-the-grid pitches it creates, select "Quantize".
  
 # Az Polyvoice Live Granulator
 
